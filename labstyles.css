@@ -1,0 +1,152 @@
+html, body {
+			padding: 0;
+			margin: 0;
+		}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	width: 100%;
+}
+h1 {
+	text-align: center;
+	color: #A24747;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 45px;
+}
+.hero img {
+	width: 100%;
+	filter: brightness(85%);
+}
+.hero {
+	position: relative;
+}
+.hero .heading {
+	position: absolute;
+	top: 20%;
+	font-size: 23px;
+	text-align: center;
+	left: 20%;
+	right: 20%;
+}
+#menu {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	background: white;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0.7;
+	padding-top: 8px;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+#menu li {
+	float: left;
+	position: relative;
+}
+#menu li a {
+	text-decoration: none;
+	width: 100%;
+	padding: 8px;
+	height: 48px;
+	color: #DA5B5B;
+	font-size: 22px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	target = 
+}
+#menu li img {
+	height: 42px;
+	padding: 2px;
+	line-height: 20px;
+	margin-left: 20px;
+}
+#menu li img:hover{
+	padding: 0;
+	border: #DA5B5B solid 2px;
+}
+#menu li a:hover {
+	color: #7A9EAF;
+}
+#menu ul ul {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	bottom: 0;
+}
+#menu ul li:hover ul {
+	visibility: visible;
+}
+button {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	width: 250px;
+	height: 55px; 
+	border: 0;
+	background: #B1C6D0;
+	color: #486785; 
+	font-size: 20px;
+	margin: 5px;
+	}
+button:hover {
+	background: #DA5B5B;
+	cursor: pointer;
+	color: white;
+	}
+
+.content {
+	padding-right: 170px;
+	padding-left: 170px;
+}
+
+
+
+.content3 img {
+	margin: 20px 50px;
+	height: 60px;
+
+}
+.content3 img:hover {
+	opacity: 0.7;
+}
+.bar img {
+	width: 250px;
+	margin: 15px;
+}
+.bar img:hover {
+	opacity: 0.7;
+}
+.bar {
+	color: #A24747;
+}
+
+.workimage {
+	width: 350px;
+	height: 350px;
+}
+.imgbox {
+	width: 350px;
+	float: left;
+	margin: 3px; 
+}
+.clear {
+	clear: both;
+}
+.outercontainer2{
+	width: 1068px;
+	position: relative;
+	top: 250px;
+	margin: auto;
+	text-align: left;
+
+}
+.workimage:hover {
+	opacity: 0.5;
+}
